@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Vault | All Series</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="series-page" id="top">
+
+  <div class="promo-banner">
+    ⚡ New Episodes Weekly — Demon Slayer Season 4 is Here!
+  </div>
+
+  <header class="site-header">
+    <div class="container header-flex">
+      <a href="index.html" class="site-logo" aria-label="Anime Vault home">
+        <span class="logo-icon" aria-hidden="true">⚔️</span>
+        <span class="logo-text">ANIME VAULT</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="series.html" class="active">Series</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Showcase -->
+  <section class="showcase" aria-label="Browse all series">
+    <div class="showcase-overlay">
+      <h2>All Series</h2>
+      <p class="showcase-subtext">Five legendary anime, one vault. Explore summaries, stats, and deep dives for each series below.</p>
+    </div>
+  </section>
+
+  <main class="container page-content">
+
+    <!-- Filter bar -->
+ <div class="series-filter-bar" role="group" aria-label="Series genres">
+      <span class="filter-btn filter-btn-active" aria-current="true">All</span>
+      <span class="filter-btn">Action</span>
+      <span class="filter-btn">Adventure</span>
+      <span class="filter-btn">Dark Fantasy</span>
+      <span class="filter-btn">Comedy</span>
+    </div>
+
+    <!-- Full Grid of all 5 series — CSS Grid -->
+    <section aria-labelledby="all-series-heading">
+      <h2 id="all-series-heading" class="visually-hidden">All anime series</h2>
+      <div class="full-series-grid">
+
+        <!-- Naruto -->
+        <article class="series-detail-card" id="naruto">
+          <img
+            src="images/naruto.jpg"
+            srcset="images/naruto-sm.jpg 480w, images/naruto.jpg 800w"
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, (max-width: 1200px) 33vw, 20vw"
+            alt="Naruto Uzumaki in his iconic orange jumpsuit with headband"
+            width="800" height="533">
+          <div class="series-detail-body">
+            <span class="series-badge-inline badge-naruto">Naruto</span>
+            <h3>Naruto</h3>
+            <p>A tale of perseverance, friendship, and the will to never give up. Naruto Uzumaki goes from the village outcast to a legend who changes the shinobi world forever.</p>
+            <div class="series-info-list">
+              <div class="series-info-row">
+                <span class="info-label">Studio</span>
+                <span class="info-value">Pierrot</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Episodes</span>
+                <span class="info-value">720 (Naruto + Shippuden)</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Genre</span>
+                <span class="info-value">Action, Adventure, Drama</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Status</span>
+                <span class="info-value">Completed (Boruto continues)</span>
+              </div>
+            </div>
+            <div class="series-meta">
+              <span class="meta-tag">Shonen</span>
+              <span class="meta-tag">Ninja</span>
+              <span class="meta-tag">Classic</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- One Piece -->
+        <article class="series-detail-card" id="onepiece">
+          <img
+            src="images/onepiece.jpg"
+            srcset="images/onepiece-sm.jpg 480w, images/onepiece.jpg 800w"
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, (max-width: 1200px) 33vw, 20vw"
+            alt="Monkey D. Luffy wearing his straw hat on the open seas"
+            width="800" height="533">
+          <div class="series-detail-body">
+            <span class="series-badge-inline badge-onepiece">One Piece</span>
+            <h3>One Piece</h3>
+            <p>The greatest adventure manga ever written. Eiichiro Oda's masterpiece spans oceans, islands, and decades of world-building unlike anything else in anime.</p>
+            <div class="series-info-list">
+              <div class="series-info-row">
+                <span class="info-label">Studio</span>
+                <span class="info-value">Toei Animation</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Episodes</span>
+                <span class="info-value">1,000+ (ongoing)</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Genre</span>
+                <span class="info-value">Adventure, Comedy, Action</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Status</span>
+                <span class="info-value">Ongoing — Final Saga</span>
+              </div>
+            </div>
+            <div class="series-meta">
+              <span class="meta-tag">Shonen</span>
+              <span class="meta-tag">Pirates</span>
+              <span class="meta-tag">Ongoing</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Attack on Titan -->
+        <article class="series-detail-card" id="aot">
+          <img
+            src="images/aot.jpg"
+            srcset="images/aot-sm.jpg 480w, images/aot.jpg 800w"
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, (max-width: 1200px) 33vw, 20vw"
+            alt="Survey Corps soldiers using vertical maneuvering equipment against titans"
+            width="800" height="533">
+          <div class="series-detail-body">
+            <span class="series-badge-inline badge-aot">AOT</span>
+            <h3>Attack on Titan</h3>
+            <p>Humanity's survival against giant humanoid titans that devour people without reason. A dark, political, and devastating story that earns every twist.</p>
+            <div class="series-info-list">
+              <div class="series-info-row">
+                <span class="info-label">Studio</span>
+                <span class="info-value">MAPPA / Wit Studio</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Episodes</span>
+                <span class="info-value">87 episodes + specials</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Genre</span>
+                <span class="info-value">Dark Fantasy, Thriller, Military</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Status</span>
+                <span class="info-value">Completed</span>
+              </div>
+            </div>
+            <div class="series-meta">
+              <span class="meta-tag">Dark</span>
+              <span class="meta-tag">Seinen</span>
+              <span class="meta-tag">Completed</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Demon Slayer -->
+        <article class="series-detail-card" id="demonslayer">
+          <img
+            src="images/demonslayer.jpg"
+            srcset="images/demonslayer-sm.jpg 480w, images/demonslayer.jpg 800w"
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, (max-width: 1200px) 33vw, 20vw"
+            alt="Tanjiro Kamado and Nezuko in action with water breathing effects"
+            width="800" height="533">
+          <div class="series-detail-body">
+            <span class="series-badge-inline badge-demonslayer">Demon Slayer</span>
+            <h3>Demon Slayer</h3>
+            <p>After his family is slaughtered by demons, Tanjiro trains to become a Demon Slayer and find a cure for his demon-turned sister Nezuko. Visually the most stunning anime ever animated.</p>
+            <div class="series-info-list">
+              <div class="series-info-row">
+                <span class="info-label">Studio</span>
+                <span class="info-value">ufotable</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Episodes</span>
+                <span class="info-value">64+ (Season 4 ongoing)</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Genre</span>
+                <span class="info-value">Action, Supernatural, Drama</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Status</span>
+                <span class="info-value">Season 4 airing</span>
+              </div>
+            </div>
+            <div class="series-meta">
+              <span class="meta-tag">Shonen</span>
+              <span class="meta-tag">Demons</span>
+              <span class="meta-tag">Ongoing</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Fairy Tail -->
+        <article class="series-detail-card" id="fairytail">
+          <img
+            src="images/fairytail.jpg"
+            srcset="images/fairytail-sm.jpg 480w, images/fairytail.jpg 800w"
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, (max-width: 1200px) 33vw, 20vw"
+            alt="Natsu Dragneel using fire dragon slayer magic"
+            width="800" height="533">
+          <div class="series-detail-body">
+            <span class="series-badge-inline badge-fairytail">Fairy Tail</span>
+            <h3>Fairy Tail</h3>
+            <p>The loudest, most chaotic, most heartfelt guild in the magical kingdom of Fiore. Natsu, Lucy, Erza, Gray, and the whole gang prove that nakama power is real.</p>
+            <div class="series-info-list">
+              <div class="series-info-row">
+                <span class="info-label">Studio</span>
+                <span class="info-value">A-1 Pictures / Bridge</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Episodes</span>
+                <span class="info-value">328 episodes</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Genre</span>
+                <span class="info-value">Fantasy, Action, Comedy</span>
+              </div>
+              <div class="series-info-row">
+                <span class="info-label">Status</span>
+                <span class="info-value">Completed (100 Years Quest manga)</span>
+              </div>
+            </div>
+            <div class="series-meta">
+              <span class="meta-tag">Shonen</span>
+              <span class="meta-tag">Magic</span>
+              <span class="meta-tag">Guild</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <a href="#top" class="sticky-link">↑ Top</a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Anime Vault</h4>
+          <p>Your ultimate fan hub for Naruto, One Piece, Attack on Titan, Demon Slayer, and Fairy Tail.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Jump</h4>
+          <ul>
+            <li><a href="#naruto">Naruto</a></li>
+            <li><a href="#onepiece">One Piece</a></li>
+            <li><a href="#aot">Attack on Titan</a></li>
+            <li><a href="#demonslayer">Demon Slayer</a></li>
+            <li><a href="#fairytail">Fairy Tail</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Anime Vault — Fan site. All anime characters and titles belong to their respective creators.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

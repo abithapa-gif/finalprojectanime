@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Vault | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="contact-page" id="top">
+
+  <div class="promo-banner">
+    ⚡ New Episodes Weekly — Demon Slayer Season 4 is Here!
+  </div>
+
+  <header class="site-header">
+    <div class="container header-flex">
+      <a href="index.html" class="site-logo" aria-label="Anime Vault home">
+        <span class="logo-icon" aria-hidden="true">⚔️</span>
+        <span class="logo-text">ANIME VAULT</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="series.html">Series</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Showcase -->
+  <section class="showcase" aria-label="Contact us">
+    <div class="showcase-overlay">
+      <h2>Get in Touch</h2>
+      <p class="showcase-subtext">
+        Questions, fan theories, content suggestions, collab requests — we want to hear from you.
+      </p>
+    </div>
+  </section>
+
+  <main class="container page-content">
+
+    <div class="contact-grid">
+
+      <!-- Left column -->
+      <div class="contact-info-block">
+
+        <section aria-labelledby="reach-heading">
+          <h2 id="reach-heading">
+            <span class="section-eyebrow-block">find us</span>
+            Reach <span class="gradient-text">Us</span>
+          </h2>
+
+          <div class="info-item contact-info-first-item">
+            <span class="info-icon" aria-hidden="true">✉️</span>
+            <p><a href="mailto:hello@animevault.fan">hello@animevault.fan</a></p>
+          </div>
+
+          <div class="info-item">
+            <span class="info-icon" aria-hidden="true">💬</span>
+            <p>Discord: <a href="#">AniméVault#Community</a></p>
+          </div>
+
+          <div class="info-item">
+            <span class="info-icon" aria-hidden="true">🐦</span>
+            <p>Twitter/X: <a href="#">@animevaulthq</a></p>
+          </div>
+
+          <div class="info-item">
+            <span class="info-icon" aria-hidden="true">📍</span>
+            <address>Online only — fans worldwide</address>
+          </div>
+        </section>
+
+        <!-- Response table -->
+        <section class="response-section" aria-labelledby="response-heading">
+          <h3 id="response-heading" class="response-heading">Response Times</h3>
+
+          <table>
+            <caption class="visually-hidden">Expected response times by message type</caption>
+            <thead>
+              <tr>
+                <th scope="col">Message Type</th>
+                <th scope="col">Response Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">General Questions</th>
+                <td>1–2 business days</td>
+              </tr>
+              <tr>
+                <th scope="row">Content Submissions</th>
+                <td>3–5 business days</td>
+              </tr>
+              <tr>
+                <th scope="row">Collabs &amp; Partnerships</th>
+                <td>Within 1 week</td>
+              </tr>
+              <tr>
+                <th scope="row">Bug Reports</th>
+                <td>Within 24 hours</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+      </div>
+
+      <!-- Form -->
+      <div class="contact-form-box">
+        <h3>Send a Message</h3>
+        <p class="form-note">Fields marked with <span aria-hidden="true">*</span> are required.</p>
+
+        <form action="#" method="post" aria-label="Contact form">
+
+          <!-- Name -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">
+                First Name<span class="required-indicator">*</span>
+              </label>
+              <input type="text" id="first-name" name="first-name"
+                required minlength="2"
+                placeholder="Naruto">
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">
+                Last Name<span class="required-indicator">*</span>
+              </label>
+              <input type="text" id="last-name" name="last-name"
+                required minlength="2"
+                placeholder="Uzumaki">
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email">
+              Email<span class="required-indicator">*</span>
+            </label>
+            <input type="email" id="email" name="email"
+              required
+              placeholder="you@example.com">
+          </div>
+
+          <!-- Phone -->
+          <div class="form-group">
+            <label for="phone">
+              Phone<span class="required-indicator">*</span>
+            </label>
+            <input type="tel" id="phone" name="phone"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="123-456-7890">
+          </div>
+
+          <!-- Subject -->
+          <div class="form-group">
+            <label for="subject">
+              Subject<span class="required-indicator">*</span>
+            </label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a topic</option>
+              <option>General Question</option>
+              <option>Fan Theory</option>
+              <option>Submission</option>
+              <option>Collaboration</option>
+            </select>
+          </div>
+
+          <!-- Message -->
+          <div class="form-group">
+            <label for="message">
+              Message<span class="required-indicator">*</span>
+            </label>
+            <textarea id="message" name="message"
+              required minlength="10" maxlength="300"
+              placeholder="Write your message..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary btn-submit">
+            Send Message ⚡
+          </button>
+
+        </form>
+
+        <!-- Success -->
+      <p class="success">
+            ✅ Thanks! We’ve received your message and will respond within 24 hours.
+        </p>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <a href="#top" class="sticky-link">↑ Top</a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Anime Vault</p>
+    </div>
+  </footer>
+
+</body>
+</html>
